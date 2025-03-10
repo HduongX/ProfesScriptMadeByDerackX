@@ -8,7 +8,7 @@ local NotificationBindable = Instance.new("BindableFunction")
 NotificationBindable.OnInvoke = callback
 
 game.StarterGui:SetCore("SendNotification", {
-    Title = "TSB Bot Farm";
+    Title = "TSB Bot Attack";
     Text = "Made By DerackX";
     Duration = 5; -- Duration should be a number, not a string
     Callback = NotificationBindable;
